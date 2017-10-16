@@ -12,16 +12,18 @@ import com.espertech.esper.client.Configuration;
 import com.espertech.esper.client.EPServiceProvider;
 import com.espertech.esper.client.EPServiceProviderManager;
 import com.espertech.esper.client.EPStatement;
+import com.ubicomp.context.cep.event.HumidityEvent;
+import com.ubicomp.context.cep.event.LuminosityEvent;
 import com.ubicomp.context.cep.event.TemperatureEvent;
 import com.ubicomp.context.cep.input.EsperioHttpInputAdapter;
 import com.ubicomp.context.cep.subscriber.StatementSubscriber;
 
 @Component
 @Scope(value = "singleton")
-public class TemperatureEventHandler implements InitializingBean{
+public class FireEventHandler implements InitializingBean{
 
     /** Logger */
-    private static Logger LOG = LoggerFactory.getLogger(TemperatureEventHandler.class);
+    private static Logger LOG = LoggerFactory.getLogger(FireEventHandler.class);
 
     /** Esper service */
     private EPServiceProvider epService;
@@ -85,6 +87,20 @@ public class TemperatureEventHandler implements InitializingBean{
         attentionEventStatement.setSubscriber(attentionEventSubscriber);
     }
 
+    
+    public void handle(HumidityEvent event) {
+
+        LOG.debug(event.toString());
+        epService.getEPRuntime().sendEvent(event);
+
+    }
+    
+    public void handle(LuminosityEvent event) {
+
+        LOG.debug(event.toString());
+        epService.getEPRuntime().sendEvent(event);
+
+    }
     
     public void handle(TemperatureEvent event) {
 

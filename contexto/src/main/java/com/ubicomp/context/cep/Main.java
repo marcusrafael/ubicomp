@@ -6,6 +6,8 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.ubicomp.context.cep.input.EsperioHttpInputAdapter;
+import com.ubicomp.context.cep.util.RandomHumidityEventGenerator;
+import com.ubicomp.context.cep.util.RandomLuminosityEventGenerator;
 import com.ubicomp.context.cep.util.RandomTemperatureEventGenerator;
 
 public class Main {
@@ -17,12 +19,12 @@ public class Main {
 
         LOG.debug("Starting...");
 
-        long noOfTemperatureEvents = 1000;
+        long noOfEvents = 1000;
 
         if (args.length != 1) {
-            LOG.debug("No override of number of events detected - defaulting to " + noOfTemperatureEvents + " events.");
+            LOG.debug("No override of number of events detected - defaulting to " + noOfEvents + " events.");
         } else {
-            noOfTemperatureEvents = Long.valueOf(args[0]);
+            noOfEvents = Long.valueOf(args[0]);
         }
 
         // Load spring config
@@ -30,8 +32,15 @@ public class Main {
         BeanFactory factory = (BeanFactory) appContext;
 
         // Start Demo
-        RandomTemperatureEventGenerator generator = (RandomTemperatureEventGenerator) factory.getBean("eventGenerator");
-        generator.startSendingTemperatureReadings(noOfTemperatureEvents);
+        RandomTemperatureEventGenerator tGenerator = (RandomTemperatureEventGenerator) factory.getBean("tEventGenerator");
+        tGenerator.startSendingTemperatureReadings(noOfEvents);
+        
+        RandomLuminosityEventGenerator lGenerator = (RandomLuminosityEventGenerator) factory.getBean("lEventGenerator");
+        lGenerator.startSendingLuminosityReadings(noOfEvents);
+        
+        RandomHumidityEventGenerator hGenerator = (RandomHumidityEventGenerator) factory.getBean("hEventGenerator");
+        hGenerator.startSendingHumidityReadings(noOfEvents);
+        
         
         EsperioHttpInputAdapter app = new EsperioHttpInputAdapter();
         app.run();

@@ -9,8 +9,14 @@
 	<!-- Process Spring Annotations -->
 	<context:component-scan base-package="com.ubicomp.context.cep" />
 
-	<bean id="eventGenerator"
+	<bean id="tEventGenerator"
 		class="com.ubicomp.context.cep.util.RandomTemperatureEventGenerator" />
+
+	<bean id="hEventGenerator"
+		class="com.ubicomp.context.cep.util.RandomHumidityEventGenerator" />
+
+	<bean id="lEventGenerator"
+		class="com.ubicomp.context.cep.util.RandomLuminosityEventGenerator" />
 
 
 </beans>

@@ -11,11 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.ubicomp.context.cep.event.HumidityEvent;
-import com.ubicomp.context.cep.event.TemperatureEvent;
 import com.ubicomp.context.cep.handler.FireEventHandler;
 
 @Component
-public class RandomTemperatureEventGenerator {
+public class RandomHumidityEventGenerator {
 
     /** Logger */
     private static Logger LOG = LoggerFactory.getLogger(RandomTemperatureEventGenerator.class);
@@ -24,7 +23,7 @@ public class RandomTemperatureEventGenerator {
     @Autowired
     private FireEventHandler temperatureEventHandler;
 
-    public void startSendingTemperatureReadings(final long noOfTemperatureEvents) {
+    public void startSendingHumidityReadings(final long noOfHumidityReadings) {
 
         ExecutorService xrayExecutor = Executors.newSingleThreadExecutor();
 
@@ -34,8 +33,8 @@ public class RandomTemperatureEventGenerator {
                 LOG.debug(getStartingMessage());
                 
                 int count = 0;
-                while (count < noOfTemperatureEvents) {
-                    TemperatureEvent ve = new TemperatureEvent(new Random().nextInt(125), new Date());
+                while (count < noOfHumidityReadings) {
+                    HumidityEvent ve = new HumidityEvent(new Random().nextInt(100)/100.0, new Date());
                     temperatureEventHandler.handle(ve);
                     count++;
                     try {
@@ -54,8 +53,7 @@ public class RandomTemperatureEventGenerator {
         StringBuilder sb = new StringBuilder();
         sb.append("\n\n************************************************************");
         sb.append("\n* STARTING - ");
-        sb.append("\n* PLEASE WAIT - TEMPERATURES ARE RANDOM SO MAY TAKE");
-        sb.append("\n* A WHILE TO SEE WARNING AND CRITICAL EVENTS!");
+        sb.append("\n* PLEASE WAIT - HUMIDITIES ARE RANDOM SO MAY TAKE");
         sb.append("\n************************************************************\n");
         return sb.toString();
     }

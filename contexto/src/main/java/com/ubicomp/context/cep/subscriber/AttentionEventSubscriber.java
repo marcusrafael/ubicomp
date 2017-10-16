@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import com.ubicomp.context.cep.event.TemperatureEvent;
+import com.ubicomp.context.cep.event.HumidityEvent;
 
 @Component
 public class AttentionEventSubscriber implements StatementSubscriber {
@@ -37,10 +37,10 @@ public class AttentionEventSubscriber implements StatementSubscriber {
 	/**
 	 * Listener method called when Esper has detected a pattern match.
 	 */
-	public void update(Map<String, TemperatureEvent> eventMap) {
+	public void update(Map<String, HumidityEvent> eventMap) {
 
-		TemperatureEvent temp1 = (TemperatureEvent) eventMap.get("temp1");
-		TemperatureEvent temp2 = (TemperatureEvent) eventMap.get("temp2");
+		HumidityEvent temp1 = (HumidityEvent) eventMap.get("temp1");
+		HumidityEvent temp2 = (HumidityEvent) eventMap.get("temp2");
 
 		StringBuilder sb = new StringBuilder();
 		sb.append("---------------------------------");

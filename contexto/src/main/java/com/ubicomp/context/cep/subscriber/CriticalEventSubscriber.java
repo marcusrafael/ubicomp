@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import com.ubicomp.context.cep.event.TemperatureEvent;
+import com.ubicomp.context.cep.event.HumidityEvent;
 
 @Component
 public class CriticalEventSubscriber implements StatementSubscriber {
@@ -45,16 +45,16 @@ public class CriticalEventSubscriber implements StatementSubscriber {
     /**
      * Listener method called when Esper has detected a pattern match.
      */
-    public void update(Map<String, TemperatureEvent> eventMap) {
+    public void update(Map<String, HumidityEvent> eventMap) {
 
         // 1st Temperature in the Critical Sequence
-        TemperatureEvent temp1 = (TemperatureEvent) eventMap.get("temp1");
+        HumidityEvent temp1 = (HumidityEvent) eventMap.get("temp1");
         // 2nd Temperature in the Critical Sequence
-        TemperatureEvent temp2 = (TemperatureEvent) eventMap.get("temp2");
+        HumidityEvent temp2 = (HumidityEvent) eventMap.get("temp2");
         // 3rd Temperature in the Critical Sequence
-        TemperatureEvent temp3 = (TemperatureEvent) eventMap.get("temp3");
+        HumidityEvent temp3 = (HumidityEvent) eventMap.get("temp3");
         // 4th Temperature in the Critical Sequence
-        TemperatureEvent temp4 = (TemperatureEvent) eventMap.get("temp4");
+        HumidityEvent temp4 = (HumidityEvent) eventMap.get("temp4");
 
         StringBuilder sb = new StringBuilder();
         sb.append("***************************************");
