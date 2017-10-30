@@ -10,16 +10,17 @@ import com.espertech.esper.client.UpdateListener;
 
 public class WarningTemperatureListener implements UpdateListener {
 	
-	/** If 2 consecutive temperature events are greater than this - issue a warning */
-    private static final String WARNING_EVENT_THRESHOLD = "80";
+    private String warningTemperature = ThresholdersValues.getWarningTemperatureThreshold();
+    
+    /** If 2 consecutive temperature events are greater than this - issue a warning */    
 	public WarningTemperatureListener() {
         String expression = "select * from TemperatureEvent "
         		 + "match_recognize ( "
                  + "       measures A as temp1, B as temp2 "
                  + "       pattern (A B) " 
                  + "       define " 
-                 + "               A as A.temperature > " + WARNING_EVENT_THRESHOLD + ", "
-                 + "               B as B.temperature > " + WARNING_EVENT_THRESHOLD + ")";
+                 + "               A as A.temperature > " + warningTemperature + ", "
+                 + "               B as B.temperature > " + warningTemperature + ")";
         EPStatement statement = EsperHttpInputAdapter.epService.getEPAdministrator().createEPL(expression);
         statement.addListener(this);
 	}

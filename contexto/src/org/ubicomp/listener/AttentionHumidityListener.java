@@ -4,20 +4,24 @@ import org.ubicomp.input.EsperHttpInputAdapter;
 
 import com.espertech.esper.client.EPStatement;
 import com.espertech.esper.client.EventBean;
+import com.espertech.esper.client.EventType;
 import com.espertech.esper.client.UpdateListener;
 
-public class AttentionTemperatureListener implements UpdateListener {
+public class AttentionHumidityListener implements UpdateListener {
 	
+	private String humidity = ThresholdersValues.getHumidityThreshold();
 	private String temperature = ThresholdersValues.getTemperatureThreshold();
+	private String luminosity = ThresholdersValues.getLuminosityThreshold();
 
-	public AttentionTemperatureListener() {
-        String expression = "select * from TemperatureEvent "
-				+ "match_recognize ( "
-				+ "       measures A as temp1, B as temp2 "
-				+ "       pattern (A B) " 
-				+ "       define " 
-				+ "               A as A.temperature > " + temperature + ", "
-				+ "               B as B.temperature > " + temperature + ")";
+	public AttentionHumidityListener() {
+        String expression = "SELECT *" + 
+        " FROM TemperatureEvent.std:lastevent() AS temperature," +
+        " HumidityEvent.std:lastevent() AS humidity,"+ 
+        " LuminosityEvent.std:lastevent() AS luminosity" +
+        " WHERE temperature > "+ temperature + 
+        " AND humidity < "+ humidity +
+        " AND luminosity > "+ luminosity;
+        
         EPStatement statement = EsperHttpInputAdapter.epService.getEPAdministrator().createEPL(expression);
         statement.addListener(this);
 	}

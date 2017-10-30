@@ -15,6 +15,9 @@ public class TemperatureEvent {
      * @param timeOfReading Time of Reading
      */
     public TemperatureEvent(){}
+    public TemperatureEvent(double temperature){
+    	this.temperature = temperature;
+    }
 
     /**
      * Get the Temperature.

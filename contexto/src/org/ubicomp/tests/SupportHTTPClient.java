@@ -67,6 +67,7 @@ public class SupportHTTPClient {
                 throw new RuntimeException(e);
             }
         }
+        System.out.println("URL => " + uri.toString() + query.toString());
         return URI.create(uri.toString() + query.toString());
     }
 
@@ -93,6 +94,17 @@ public class SupportHTTPClient {
         client.request(8085, "sendevent", "stream", "TemperatureEvent", "temperature", "50");
         client.request(8085, "sendevent", "stream", "TemperatureEvent", "temperature", "500");
         client.request(8085, "sendevent", "stream", "TemperatureEvent", "temperature", "500");
+
+        client.request(8085, "sendevent", "stream", "HumidityEvent", "humidity", "0.50");
+    	client.request(8085, "sendevent", "stream", "HumidityEvent", "humidity", "0.40");
+    	client.request(8085, "sendevent", "stream", "HumidityEvent", "humidity", "0.30");
+    	client.request(8085, "sendevent", "stream", "HumidityEvent", "humidity", "0.20");
+    	client.request(8085, "sendevent", "stream", "HumidityEvent", "humidity", "0.10");
+    	client.request(8085, "sendevent", "stream", "LuminosityEvent", "luminosity", "0.50");
+    	client.request(8085, "sendevent", "stream", "LuminosityEvent", "luminosity", "0.60");
+    	client.request(8085, "sendevent", "stream", "LuminosityEvent", "luminosity", "0.70");
+    	client.request(8085, "sendevent", "stream", "LuminosityEvent", "luminosity", "0.80");
+    	client.request(8085, "sendevent", "stream", "LuminosityEvent", "luminosity", "0.90");
 
     }
 

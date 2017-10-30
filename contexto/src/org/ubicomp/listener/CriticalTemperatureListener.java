@@ -9,23 +9,24 @@ import com.espertech.esper.client.UpdateListener;
 public class CriticalTemperatureListener implements UpdateListener {
 	
 	 /** Used as the minimum starting threshold for a critical event. */
-    private static final String CRITICAL_EVENT_THRESHOLD = "100";
+    private String criticalTemperature = ThresholdersValues.getCriticalTemperatureThreshold();
+    private String criticalMultiplier = ThresholdersValues.getCriticalTemperatureMultiplier();
     
     /**
      * If the last event in a critical sequence is this much greater than the first - issue a
      * critical alert.
      */
-    private static final String CRITICAL_EVENT_MULTIPLIER = "1.5";
 	public CriticalTemperatureListener() {
         String expression = "select * from TemperatureEvent "
         		  + "match_recognize ( "
                   + "       measures A as temp1, B as temp2, C as temp3, D as temp4 "
                   + "       pattern (A B C D) " 
                   + "       define "
-                  + "               A as A.temperature > " + CRITICAL_EVENT_THRESHOLD + ", "
+                  + "               A as A.temperature > " + criticalTemperature + ", "
                   + "               B as (A.temperature < B.temperature), "
                   + "               C as (B.temperature < C.temperature), "
-                  + "               D as (C.temperature < D.temperature) and D.temperature > (A.temperature * " + CRITICAL_EVENT_MULTIPLIER + ")" + ")";
+                  + "               D as (C.temperature < D.temperature) and "
+                  + "               D.temperature > (A.temperature * " + criticalMultiplier + "))";
           
         EPStatement statement = EsperHttpInputAdapter.epService.getEPAdministrator().createEPL(expression);
         statement.addListener(this);
