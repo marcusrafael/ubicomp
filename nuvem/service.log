@@ -1,0 +1,451 @@
+1 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.Configuration id -220881974438617882 classloader class sun.misc.Launcher$AppClassLoader
+10 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.ArrayList id 8683452581122892189 classloader class sun.misc.Launcher$AppClassLoader
+10 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.HashMap id 362498820763181265 classloader class sun.misc.Launcher$AppClassLoader
+11 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults id -528835191586154300 classloader class sun.misc.Launcher$AppClassLoader
+11 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$AlternativeContext id 4488861684585251042 classloader class sun.misc.Launcher$AppClassLoader
+11 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ConditionHandling id -708367341332718634 classloader class sun.misc.Launcher$AppClassLoader
+12 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$EventMeta id -6091772368103140370 classloader class sun.misc.Launcher$AppClassLoader
+19 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$EventMeta$AvroSettings id 2977645210525767203 classloader class sun.misc.Launcher$AppClassLoader
+20 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.Configuration$PropertyResolutionStyle id 0 classloader class sun.misc.Launcher$AppClassLoader
+20 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.lang.Enum id 0 classloader class sun.misc.Launcher$AppClassLoader
+20 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEventTypeLegacy$AccessorStyle id 0 classloader class sun.misc.Launcher$AppClassLoader
+20 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.util.EventUnderlyingType id 0 classloader class sun.misc.Launcher$AppClassLoader
+21 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ExceptionHandling id -708367341332718634 classloader class sun.misc.Launcher$AppClassLoader
+21 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ExceptionHandling$UndeployRethrowPolicy id 0 classloader class sun.misc.Launcher$AppClassLoader
+21 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Execution id 0 classloader class sun.misc.Launcher$AppClassLoader
+22 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$CodeGeneration id 4838184156776134497 classloader class sun.misc.Launcher$AppClassLoader
+22 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$FilterServiceProfile id 0 classloader class sun.misc.Launcher$AppClassLoader
+29 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ThreadingProfile id 0 classloader class sun.misc.Launcher$AppClassLoader
+30 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Expression id 3192205923560011213 classloader class sun.misc.Launcher$AppClassLoader
+30 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class sun.util.calendar.ZoneInfo id 2653134537216586139 classloader class sun.misc.Launcher$AppClassLoader
+30 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.TimeZone id 3581463369166924961 classloader class sun.misc.Launcher$AppClassLoader
+31 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Language id -6237674558477894392 classloader class sun.misc.Launcher$AppClassLoader
+31 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Logging id -8129836306582810327 classloader class sun.misc.Launcher$AppClassLoader
+31 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$MatchRecognize id 4541565245238216789 classloader class sun.misc.Launcher$AppClassLoader
+31 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationMetricsReporting id -7265780298667075895 classloader class sun.misc.Launcher$AppClassLoader
+31 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.LinkedHashMap id 3801124242820219131 classloader class sun.misc.Launcher$AppClassLoader
+32 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Patterns id -7596853289989573800 classloader class sun.misc.Launcher$AppClassLoader
+32 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Scripts id -3111856398932434323 classloader class sun.misc.Launcher$AppClassLoader
+32 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$StreamSelection id -7943748323859161674 classloader class sun.misc.Launcher$AppClassLoader
+32 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.soda.StreamSelector id 0 classloader class sun.misc.Launcher$AppClassLoader
+59 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Threading id 6504606101119059962 classloader class sun.misc.Launcher$AppClassLoader
+60 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Threading$Locking id 0 classloader class sun.misc.Launcher$AppClassLoader
+60 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$TimeSource id 2075039404763313824 classloader class sun.misc.Launcher$AppClassLoader
+60 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$TimeSourceType id 0 classloader class sun.misc.Launcher$AppClassLoader
+60 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.concurrent.TimeUnit id 0 classloader class sun.misc.Launcher$AppClassLoader
+60 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Variables id 8276015152830052323 classloader class sun.misc.Launcher$AppClassLoader
+61 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ViewResources id 2527853225433208362 classloader class sun.misc.Launcher$AppClassLoader
+61 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.LinkedHashSet id -2851667679971038690 classloader class sun.misc.Launcher$AppClassLoader
+61 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.HashSet id -5024744406713321676 classloader class sun.misc.Launcher$AppClassLoader
+83 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationPluginLoader id 6053550897594738083 classloader class sun.misc.Launcher$AppClassLoader
+84 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.Properties id 4112578634029874840 classloader class sun.misc.Launcher$AppClassLoader
+85 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.Hashtable id 1421746759512286392 classloader class sun.misc.Launcher$AppClassLoader
+86 [main] INFO com.espertech.esper.core.service.EPServiceProviderImpl  - Initializing engine URI 'default' version 6.1.0
+94 [main] DEBUG com.espertech.esper.epl.metric.MetricReportingPath  - Metrics reporting has been disabled, this setting takes affect for all engine instances at engine initialization time.
+349 [main] DEBUG com.espertech.esper.epl.core.EngineImportServiceImpl  - Adding import java.lang.*
+349 [main] DEBUG com.espertech.esper.epl.core.EngineImportServiceImpl  - Adding import java.math.*
+349 [main] DEBUG com.espertech.esper.epl.core.EngineImportServiceImpl  - Adding import java.text.*
+349 [main] DEBUG com.espertech.esper.epl.core.EngineImportServiceImpl  - Adding import java.util.*
+358 [main] DEBUG com.espertech.esper.epl.core.EngineImportServiceImpl  - Adding import com.espertech.esper.client.annotation.*
+359 [main] DEBUG com.espertech.esper.epl.core.EngineImportServiceImpl  - Adding import com.espertech.esper.dataflow.ops.*
+1259 [main] DEBUG com.espertech.esper.timer.TimerServiceImpl  - .startInternalClock Starting internal clock daemon thread, resolution=100
+1382 [main] INFO com.espertech.esperio.http.config.ConfigurationHTTPAdapter  - Configuring from string
+1533 [main] INFO com.espertech.esperio.http.EsperIOHTTPAdapterPlugin  - Starting HTTP Adapter
+1535 [main] INFO com.espertech.esperio.http.EsperIOHTTPAdapter  - Starting EsperIO HTTP Adapter for engine URI 'default'
+1555 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.Configuration id -220881974438617882 classloader class sun.misc.Launcher$AppClassLoader
+1555 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.ArrayList id 8683452581122892189 classloader class sun.misc.Launcher$AppClassLoader
+1555 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.HashMap id 362498820763181265 classloader class sun.misc.Launcher$AppClassLoader
+1573 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults id -528835191586154300 classloader class sun.misc.Launcher$AppClassLoader
+1573 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$AlternativeContext id 4488861684585251042 classloader class sun.misc.Launcher$AppClassLoader
+1573 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ConditionHandling id -708367341332718634 classloader class sun.misc.Launcher$AppClassLoader
+1573 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$EventMeta id -6091772368103140370 classloader class sun.misc.Launcher$AppClassLoader
+1573 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$EventMeta$AvroSettings id 2977645210525767203 classloader class sun.misc.Launcher$AppClassLoader
+1574 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.Configuration$PropertyResolutionStyle id 0 classloader class sun.misc.Launcher$AppClassLoader
+1574 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.lang.Enum id 0 classloader class sun.misc.Launcher$AppClassLoader
+1574 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEventTypeLegacy$AccessorStyle id 0 classloader class sun.misc.Launcher$AppClassLoader
+1574 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.util.EventUnderlyingType id 0 classloader class sun.misc.Launcher$AppClassLoader
+1574 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ExceptionHandling id -708367341332718634 classloader class sun.misc.Launcher$AppClassLoader
+1574 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ExceptionHandling$UndeployRethrowPolicy id 0 classloader class sun.misc.Launcher$AppClassLoader
+1574 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Execution id 0 classloader class sun.misc.Launcher$AppClassLoader
+1575 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$CodeGeneration id 4838184156776134497 classloader class sun.misc.Launcher$AppClassLoader
+1575 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$FilterServiceProfile id 0 classloader class sun.misc.Launcher$AppClassLoader
+1575 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ThreadingProfile id 0 classloader class sun.misc.Launcher$AppClassLoader
+1575 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Expression id 3192205923560011213 classloader class sun.misc.Launcher$AppClassLoader
+1575 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class sun.util.calendar.ZoneInfo id 2653134537216586139 classloader class sun.misc.Launcher$AppClassLoader
+1575 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.TimeZone id 3581463369166924961 classloader class sun.misc.Launcher$AppClassLoader
+1585 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Language id -6237674558477894392 classloader class sun.misc.Launcher$AppClassLoader
+1585 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Logging id -8129836306582810327 classloader class sun.misc.Launcher$AppClassLoader
+1594 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$MatchRecognize id 4541565245238216789 classloader class sun.misc.Launcher$AppClassLoader
+1594 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationMetricsReporting id -7265780298667075895 classloader class sun.misc.Launcher$AppClassLoader
+1595 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.LinkedHashMap id 3801124242820219131 classloader class sun.misc.Launcher$AppClassLoader
+1595 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Patterns id -7596853289989573800 classloader class sun.misc.Launcher$AppClassLoader
+1602 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Scripts id -3111856398932434323 classloader class sun.misc.Launcher$AppClassLoader
+1603 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$StreamSelection id -7943748323859161674 classloader class sun.misc.Launcher$AppClassLoader
+1603 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.soda.StreamSelector id 0 classloader class sun.misc.Launcher$AppClassLoader
+1603 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Threading id 6504606101119059962 classloader class sun.misc.Launcher$AppClassLoader
+1603 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Threading$Locking id 0 classloader class sun.misc.Launcher$AppClassLoader
+1604 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$TimeSource id 2075039404763313824 classloader class sun.misc.Launcher$AppClassLoader
+1604 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$TimeSourceType id 0 classloader class sun.misc.Launcher$AppClassLoader
+1604 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.concurrent.TimeUnit id 0 classloader class sun.misc.Launcher$AppClassLoader
+1604 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$Variables id 8276015152830052323 classloader class sun.misc.Launcher$AppClassLoader
+1604 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class com.espertech.esper.client.ConfigurationEngineDefaults$ViewResources id 2527853225433208362 classloader class sun.misc.Launcher$AppClassLoader
+1604 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.LinkedHashSet id -2851667679971038690 classloader class sun.misc.Launcher$AppClassLoader
+1604 [main] DEBUG com.espertech.esper.util.ObjectInputStreamWithTCCL  - Resolving class java.util.HashSet id -5024744406713321676 classloader class sun.misc.Launcher$AppClassLoader
+1773 [main] INFO com.espertech.esperio.http.core.EsperHttpServiceBase  - Registering for service 'service1' the pattern '*'
+1852 [main] INFO com.espertech.esperio.http.EsperIOHTTPAdapter  - Completed starting EsperIO HTTP Adapter for engine URI 'default'.
+Main> Starting Listeners...
+1862 [main] DEBUG com.espertech.esper.core.service.EPAdministratorHelper  - .createEPLStmt statementName=null eplStatement=select * from LiveEvent
+1862 [Thread-0] INFO com.espertech.esperio.http.core.EsperHttpServiceNIORunnable  - For service 'service1' listening on port 8085
+1873 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Parsing expr=select * from LiveEvent
+3217 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Dumping AST...
+3307 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .walk Walking AST using walker com.espertech.esper.epl.parse.EPLTreeWalkerListener
+3436 [main] DEBUG com.espertech.esper.core.service.StatementResultServiceImpl  - .ctor
+3467 [main] DEBUG com.espertech.esper.event.EventAdapterServiceImpl  - .addBeanType Adding LiveEvent for type LiveEvent
+3899 [main] DEBUG com.espertech.esper.epl.spec.FilterStreamSpecRaw  - .resolveType Event type named 'LiveEvent' not resolved by plug-in event representations
+3948 [main] DEBUG com.espertech.esper.filter.FilterSpecCompiler  - .makeFilterSpec spec=FilterSpecCompiled type=BeanEventType name=LiveEvent clazz=org.ubicomp.event.LiveEvent parameters=[]
+4048 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .start Starting statement 1 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@15043a2f
+4048 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .startInternal Starting statement 1 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@15043a2f
+4088 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Incoming specifications=[]
+4088 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Outgoing specifications=[]
+4127 [main] DEBUG com.espertech.esper.epl.core.OrderByProcessorFactoryFactory  - .getProcessor Using no OrderByProcessor
+4128 [main] DEBUG com.espertech.esper.epl.core.SelectExprProcessorFactory  - .getProcessor Using wildcard processor
+4148 [main] DEBUG com.espertech.esper.epl.core.ResultSetProcessorFactoryFactory  - .getProcessor Using no result processor
+4228 [main] DEBUG com.espertech.esper.view.stream.StreamFactorySvcImpl  - .createStream hashCode=1603177117 filter=FilterSpecCompiled type=BeanEventType name=LiveEvent clazz=org.ubicomp.event.LiveEvent parameters=[]
+4297 [main] DEBUG com.espertech.esper.view.ViewServiceImpl  - .createView No new views created, dumping stream ... com.espertech.esper.view.ZeroDepthStreamNoIterate@1c742ed4
+4336 [main] DEBUG com.espertech.esper.epl.named.NamedWindowConsumerMgmtServiceImpl  - Statement 'stmt_1 starts consuming
+4337 [main] DEBUG com.espertech.esper.core.service.EPAdministratorImpl  - .createEPLStmt Statement created and started
+4337 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .updatedListeners No action for base implementation
+4338 [main] DEBUG com.espertech.esper.core.service.EPAdministratorHelper  - .createEPLStmt statementName=null eplStatement=select * from QuitEvent
+4338 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Parsing expr=select * from QuitEvent
+4346 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Dumping AST...
+4346 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .walk Walking AST using walker com.espertech.esper.epl.parse.EPLTreeWalkerListener
+4347 [main] DEBUG com.espertech.esper.core.service.StatementResultServiceImpl  - .ctor
+4347 [main] DEBUG com.espertech.esper.event.EventAdapterServiceImpl  - .addBeanType Adding QuitEvent for type QuitEvent
+4368 [main] DEBUG com.espertech.esper.epl.spec.FilterStreamSpecRaw  - .resolveType Event type named 'QuitEvent' not resolved by plug-in event representations
+4368 [main] DEBUG com.espertech.esper.filter.FilterSpecCompiler  - .makeFilterSpec spec=FilterSpecCompiled type=BeanEventType name=QuitEvent clazz=org.ubicomp.event.QuitEvent parameters=[]
+4368 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .start Starting statement 2 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@5c7bfdc1
+4368 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .startInternal Starting statement 2 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@5c7bfdc1
+4369 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Incoming specifications=[]
+4376 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Outgoing specifications=[]
+4376 [main] DEBUG com.espertech.esper.epl.core.OrderByProcessorFactoryFactory  - .getProcessor Using no OrderByProcessor
+4376 [main] DEBUG com.espertech.esper.epl.core.SelectExprProcessorFactory  - .getProcessor Using wildcard processor
+4376 [main] DEBUG com.espertech.esper.epl.core.ResultSetProcessorFactoryFactory  - .getProcessor Using no result processor
+4376 [main] DEBUG com.espertech.esper.view.stream.StreamFactorySvcImpl  - .createStream hashCode=1383519982 filter=FilterSpecCompiled type=BeanEventType name=QuitEvent clazz=org.ubicomp.event.QuitEvent parameters=[]
+4376 [main] DEBUG com.espertech.esper.view.ViewServiceImpl  - .createView No new views created, dumping stream ... com.espertech.esper.view.ZeroDepthStreamNoIterate@1b919693
+4376 [main] DEBUG com.espertech.esper.epl.named.NamedWindowConsumerMgmtServiceImpl  - Statement 'stmt_2 starts consuming
+4376 [main] DEBUG com.espertech.esper.core.service.EPAdministratorImpl  - .createEPLStmt Statement created and started
+4376 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .updatedListeners No action for base implementation
+4377 [main] DEBUG com.espertech.esper.core.service.EPAdministratorHelper  - .createEPLStmt statementName=null eplStatement=select * from TemperatureEvent match_recognize (        measures A as temp1, B as temp2        pattern (A B)        define                A as A.temperature > 40,                B as B.temperature > 40)
+4377 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Parsing expr=select * from TemperatureEvent match_recognize (        measures A as temp1, B as temp2        pattern (A B)        define                A as A.temperature > 40,                B as B.temperature > 40)
+4507 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+4508 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+4590 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+4591 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+4695 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+4715 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+4744 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+4763 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+4764 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Dumping AST...
+4764 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .walk Walking AST using walker com.espertech.esper.epl.parse.EPLTreeWalkerListener
+4924 [main] DEBUG com.espertech.esper.core.service.StatementResultServiceImpl  - .ctor
+4924 [main] DEBUG com.espertech.esper.event.EventAdapterServiceImpl  - .addBeanType Adding TemperatureEvent for type TemperatureEvent
+4992 [main] DEBUG com.espertech.esper.epl.spec.FilterStreamSpecRaw  - .resolveType Event type named 'TemperatureEvent' not resolved by plug-in event representations
+5013 [main] DEBUG com.espertech.esper.filter.FilterSpecCompiler  - .makeFilterSpec spec=FilterSpecCompiled type=BeanEventType name=TemperatureEvent clazz=org.ubicomp.event.TemperatureEvent parameters=[]
+5014 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .start Starting statement 3 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@7dda48d9
+5014 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .startInternal Starting statement 3 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@7dda48d9
+5031 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Incoming specifications=[]
+5031 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Outgoing specifications=[]
+5188 [main] DEBUG com.espertech.esper.epl.core.OrderByProcessorFactoryFactory  - .getProcessor Using no OrderByProcessor
+5188 [main] DEBUG com.espertech.esper.epl.core.SelectExprProcessorFactory  - .getProcessor Using wildcard processor
+5188 [main] DEBUG com.espertech.esper.epl.core.ResultSetProcessorFactoryFactory  - .getProcessor Using no result processor
+5188 [main] DEBUG com.espertech.esper.view.stream.StreamFactorySvcImpl  - .createStream hashCode=392904516 filter=FilterSpecCompiled type=BeanEventType name=TemperatureEvent clazz=org.ubicomp.event.TemperatureEvent parameters=[]
+5343 [main] INFO com.espertech.esper.rowregex.EventRowRegexNFAView  - NFA tree:
+#0 A s0 defined as FilterEvent
+    #1 B s1 defined as FilterEvent
+        #endstate
+
+5362 [main] DEBUG com.espertech.esper.view.ViewServiceImpl  - .createView New views created for stream, all views ... com.espertech.esper.view.ZeroDepthStreamNoIterate@7e3181aa
+5362 [main] DEBUG com.espertech.esper.epl.named.NamedWindowConsumerMgmtServiceImpl  - Statement 'stmt_3 starts consuming
+5363 [main] DEBUG com.espertech.esper.core.service.EPAdministratorImpl  - .createEPLStmt Statement created and started
+5363 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .updatedListeners No action for base implementation
+5364 [main] DEBUG com.espertech.esper.core.service.EPAdministratorHelper  - .createEPLStmt statementName=null eplStatement=SELECT * FROM TemperatureEvent.std:lastevent() AS temperature, HumidityEvent.std:lastevent() AS humidity, LuminosityEvent.std:lastevent() AS luminosity WHERE temperature > 40 AND humidity < 0.30 AND luminosity > 0.80
+5364 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Parsing expr=SELECT * FROM TemperatureEvent.std:lastevent() AS temperature, HumidityEvent.std:lastevent() AS humidity, LuminosityEvent.std:lastevent() AS luminosity WHERE temperature > 40 AND humidity < 0.30 AND luminosity > 0.80
+5434 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+5453 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+5464 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+5492 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+5510 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+5512 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+5534 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Dumping AST...
+5534 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .walk Walking AST using walker com.espertech.esper.epl.parse.EPLTreeWalkerListener
+5554 [main] DEBUG com.espertech.esper.core.service.StatementResultServiceImpl  - .ctor
+5555 [main] DEBUG com.espertech.esper.filter.FilterSpecCompiler  - .makeFilterSpec spec=FilterSpecCompiled type=BeanEventType name=TemperatureEvent clazz=org.ubicomp.event.TemperatureEvent parameters=[]
+5555 [main] DEBUG com.espertech.esper.event.EventAdapterServiceImpl  - .addBeanType Adding HumidityEvent for type HumidityEvent
+5624 [main] DEBUG com.espertech.esper.epl.spec.FilterStreamSpecRaw  - .resolveType Event type named 'HumidityEvent' not resolved by plug-in event representations
+5624 [main] DEBUG com.espertech.esper.filter.FilterSpecCompiler  - .makeFilterSpec spec=FilterSpecCompiled type=BeanEventType name=HumidityEvent clazz=org.ubicomp.event.HumidityEvent parameters=[]
+5624 [main] DEBUG com.espertech.esper.event.EventAdapterServiceImpl  - .addBeanType Adding LuminosityEvent for type LuminosityEvent
+5679 [main] DEBUG com.espertech.esper.epl.spec.FilterStreamSpecRaw  - .resolveType Event type named 'LuminosityEvent' not resolved by plug-in event representations
+5679 [main] DEBUG com.espertech.esper.filter.FilterSpecCompiler  - .makeFilterSpec spec=FilterSpecCompiled type=BeanEventType name=LuminosityEvent clazz=org.ubicomp.event.LuminosityEvent parameters=[]
+5679 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .start Starting statement 4 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@61ce23ac
+5679 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .startInternal Starting statement 4 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@61ce23ac
+5679 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Incoming specifications=[objectName=lastevent  objectParameters=()]
+5679 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Outgoing specifications=[objectName=lastevent  objectParameters=()]
+5679 [main] DEBUG com.espertech.esper.view.ViewResolutionServiceImpl  - .create Creating view factory, namespace=std name=lastevent
+5680 [main] DEBUG com.espertech.esper.view.ViewResolutionServiceImpl  - .create Successfully instantiated view
+5680 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Incoming specifications=[objectName=lastevent  objectParameters=()]
+5680 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Outgoing specifications=[objectName=lastevent  objectParameters=()]
+5680 [main] DEBUG com.espertech.esper.view.ViewResolutionServiceImpl  - .create Creating view factory, namespace=std name=lastevent
+5680 [main] DEBUG com.espertech.esper.view.ViewResolutionServiceImpl  - .create Successfully instantiated view
+5680 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Incoming specifications=[objectName=lastevent  objectParameters=()]
+5681 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Outgoing specifications=[objectName=lastevent  objectParameters=()]
+5681 [main] DEBUG com.espertech.esper.view.ViewResolutionServiceImpl  - .create Creating view factory, namespace=std name=lastevent
+5681 [main] DEBUG com.espertech.esper.view.ViewResolutionServiceImpl  - .create Successfully instantiated view
+5681 [main] DEBUG com.espertech.esper.epl.core.OrderByProcessorFactoryFactory  - .getProcessor Using no OrderByProcessor
+5681 [main] DEBUG com.espertech.esper.epl.core.SelectExprProcessorFactory  - .getProcessor Using SelectExprJoinWildcardProcessor
+5700 [main] DEBUG com.espertech.esper.epl.core.ResultSetProcessorFactoryFactory  - .getProcessor Using no result processor
+5731 [main] DEBUG com.espertech.esper.epl.join.base.JoinSetComposerPrototypeFactory  - Dependency graph: 
+5808 [main] DEBUG com.espertech.esper.epl.join.base.JoinSetComposerPrototypeFactory  - .makeComposer After filter expression queryGraph=
+Entry 1: key=QueryGraphKey 1 and 0
+  value=QueryGraphValue temperature: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@4b9df8a
+Entry 2: key=QueryGraphKey 0 and 1
+  value=QueryGraphValue humidity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@5e8ac0e1
+Entry 3: key=QueryGraphKey 2 and 0
+  value=QueryGraphValue temperature: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@aafcffa
+Entry 4: key=QueryGraphKey 0 and 2
+  value=QueryGraphValue luminosity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@6955cb39
+Entry 5: key=QueryGraphKey 2 and 1
+  value=QueryGraphValue humidity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@235a0c16
+Entry 6: key=QueryGraphKey 1 and 2
+  value=QueryGraphValue luminosity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@2b5f4d54
+
+5809 [main] DEBUG com.espertech.esper.epl.join.base.JoinSetComposerPrototypeFactory  - .makeComposer After fill equiv. nav. queryGraph=
+Entry 1: key=QueryGraphKey 1 and 0
+  value=QueryGraphValue temperature: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@4b9df8a
+Entry 2: key=QueryGraphKey 0 and 1
+  value=QueryGraphValue humidity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@5e8ac0e1
+Entry 3: key=QueryGraphKey 2 and 0
+  value=QueryGraphValue temperature: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@aafcffa
+Entry 4: key=QueryGraphKey 0 and 2
+  value=QueryGraphValue luminosity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@6955cb39
+Entry 5: key=QueryGraphKey 2 and 1
+  value=QueryGraphValue humidity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@235a0c16
+Entry 6: key=QueryGraphKey 1 and 2
+  value=QueryGraphValue luminosity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@2b5f4d54
+
+5866 [main] DEBUG com.espertech.esper.epl.join.plan.NStreamQueryPlanBuilder  - .build queryGraph=Entry 1: key=QueryGraphKey 1 and 0
+  value=QueryGraphValue temperature: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@4b9df8a
+Entry 2: key=QueryGraphKey 0 and 1
+  value=QueryGraphValue humidity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@5e8ac0e1
+Entry 3: key=QueryGraphKey 2 and 0
+  value=QueryGraphValue temperature: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@aafcffa
+Entry 4: key=QueryGraphKey 0 and 2
+  value=QueryGraphValue luminosity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@6955cb39
+Entry 5: key=QueryGraphKey 2 and 1
+  value=QueryGraphValue humidity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@235a0c16
+Entry 6: key=QueryGraphKey 1 and 2
+  value=QueryGraphValue luminosity: com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@2b5f4d54
+
+5905 [main] DEBUG com.espertech.esper.epl.join.plan.NStreamQueryPlanBuilder  - .build Index build completed, indexes=QueryPlanIndex[]
+  index spec stream 0 : 
+    index 4d898533-8af1-46e9-832b-f6fed30fdcfa : QueryPlanIndexItem{unique=false, indexProps=[], rangeProps=[temperature], optIndexCoercionTypes=[], optRangeCoercionTypes=[class java.lang.Double], advanced=null}
+  index spec stream 1 : 
+    index 8ae8b275-cf4b-42e0-8c36-eb562236aa82 : QueryPlanIndexItem{unique=false, indexProps=[], rangeProps=[humidity], optIndexCoercionTypes=[], optRangeCoercionTypes=[class java.lang.Double], advanced=null}
+  index spec stream 2 : 
+    index 47e8a615-88a9-4ad7-869f-e61968c92a87 : QueryPlanIndexItem{unique=false, indexProps=[], rangeProps=[luminosity], optIndexCoercionTypes=[], optRangeCoercionTypes=[class java.lang.Double], advanced=null}
+
+5906 [main] DEBUG com.espertech.esper.epl.join.plan.NStreamQueryPlanBuilder  - .build For stream 0 bestChain=[1, 2]
+5924 [main] DEBUG com.espertech.esper.epl.join.plan.NStreamQueryPlanBuilder  - .build spec=com.espertech.esper.epl.join.plan.NestedIterationNode@31e4bb20
+5924 [main] DEBUG com.espertech.esper.epl.join.plan.NStreamQueryPlanBuilder  - .build For stream 1 bestChain=[0, 2]
+5924 [main] DEBUG com.espertech.esper.epl.join.plan.NStreamQueryPlanBuilder  - .build spec=com.espertech.esper.epl.join.plan.NestedIterationNode@18cebaa5
+5924 [main] DEBUG com.espertech.esper.epl.join.plan.NStreamQueryPlanBuilder  - .build For stream 2 bestChain=[0, 1]
+5924 [main] DEBUG com.espertech.esper.epl.join.plan.NStreamQueryPlanBuilder  - .build spec=com.espertech.esper.epl.join.plan.NestedIterationNode@463b4ac8
+5934 [main] DEBUG com.espertech.esper.epl.join.plan.QueryPlanBuilder  - .getPlan N-Stream inner-join queryPlan=QueryPlanNode
+QueryPlanIndex[]
+  index spec stream 0 : 
+    index 4d898533-8af1-46e9-832b-f6fed30fdcfa : QueryPlanIndexItem{unique=false, indexProps=[], rangeProps=[temperature], optIndexCoercionTypes=[], optRangeCoercionTypes=[class java.lang.Double], advanced=null}
+  index spec stream 1 : 
+    index 8ae8b275-cf4b-42e0-8c36-eb562236aa82 : QueryPlanIndexItem{unique=false, indexProps=[], rangeProps=[humidity], optIndexCoercionTypes=[], optRangeCoercionTypes=[class java.lang.Double], advanced=null}
+  index spec stream 2 : 
+    index 47e8a615-88a9-4ad7-869f-e61968c92a87 : QueryPlanIndexItem{unique=false, indexProps=[], rangeProps=[luminosity], optIndexCoercionTypes=[], optRangeCoercionTypes=[class java.lang.Double], advanced=null}
+QueryPlanNode[]
+  node spec 0 :
+    NestedIterationNode with nesting order [1, 2]
+      TableLookupNode  tableLookupPlan=SortedTableLookupPlan lookupStream=0 indexedStream=1 indexNum=[8ae8b275-cf4b-42e0-8c36-eb562236aa82] keyProperties=< on 0.3
+      TableLookupNode  tableLookupPlan=SortedTableLookupPlan lookupStream=1 indexedStream=2 indexNum=[47e8a615-88a9-4ad7-869f-e61968c92a87] keyProperties=> on 0.8
+  node spec 1 :
+    NestedIterationNode with nesting order [0, 2]
+      TableLookupNode  tableLookupPlan=SortedTableLookupPlan lookupStream=1 indexedStream=0 indexNum=[4d898533-8af1-46e9-832b-f6fed30fdcfa] keyProperties=> on 40
+      TableLookupNode  tableLookupPlan=SortedTableLookupPlan lookupStream=0 indexedStream=2 indexNum=[47e8a615-88a9-4ad7-869f-e61968c92a87] keyProperties=> on 0.8
+  node spec 2 :
+    NestedIterationNode with nesting order [0, 1]
+      TableLookupNode  tableLookupPlan=SortedTableLookupPlan lookupStream=2 indexedStream=0 indexNum=[4d898533-8af1-46e9-832b-f6fed30fdcfa] keyProperties=> on 40
+      TableLookupNode  tableLookupPlan=SortedTableLookupPlan lookupStream=0 indexedStream=1 indexNum=[8ae8b275-cf4b-42e0-8c36-eb562236aa82] keyProperties=< on 0.3
+
+5953 [main] DEBUG com.espertech.esper.view.stream.StreamFactorySvcImpl  - .createStream hashCode=392904516 filter=FilterSpecCompiled type=BeanEventType name=TemperatureEvent clazz=org.ubicomp.event.TemperatureEvent parameters=[]
+5953 [main] DEBUG com.espertech.esper.view.stream.StreamFactorySvcImpl  - .createStream hashCode=663466110 filter=FilterSpecCompiled type=BeanEventType name=HumidityEvent clazz=org.ubicomp.event.HumidityEvent parameters=[]
+5953 [main] DEBUG com.espertech.esper.view.stream.StreamFactorySvcImpl  - .createStream hashCode=1810518740 filter=FilterSpecCompiled type=BeanEventType name=LuminosityEvent clazz=org.ubicomp.event.LuminosityEvent parameters=[]
+5955 [main] DEBUG com.espertech.esper.view.ViewServiceImpl  - .createView New views created for stream, all views ... com.espertech.esper.view.ZeroDepthStreamNoIterate@2a2c13a8
+5955 [main] DEBUG com.espertech.esper.view.ViewServiceImpl  - .createView New views created for stream, all views ... com.espertech.esper.view.ZeroDepthStreamNoIterate@b6b1987
+5955 [main] DEBUG com.espertech.esper.view.ViewServiceImpl  - .createView New views created for stream, all views ... com.espertech.esper.view.ZeroDepthStreamNoIterate@6b44435b
+6023 [main] DEBUG com.espertech.esper.epl.join.base.JoinSetComposerPrototypeFactory  - .makeComposer Execution nodes for stream 0 'temperature' : 
+    NestedIterationExecNode
+      TableLookupExecNode indexedStream=1 lookup=SortedTableLookupStrategy indexProps=com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@5e8ac0e1 index=(PropertySortedEventTableCoerced streamNum=1 propertyGetter=CGLibPropertyGetter fastMethod=public double org.ubicomp.event.HumidityEvent.getHumidity() coercionType=class java.lang.Double)
+      TableLookupExecNode indexedStream=2 lookup=SortedTableLookupStrategy indexProps=com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@2b5f4d54 index=(PropertySortedEventTableCoerced streamNum=2 propertyGetter=CGLibPropertyGetter fastMethod=public double org.ubicomp.event.LuminosityEvent.getLuminosity() coercionType=class java.lang.Double)
+
+6023 [main] DEBUG com.espertech.esper.epl.join.base.JoinSetComposerPrototypeFactory  - .makeComposer Execution nodes for stream 1 'humidity' : 
+    NestedIterationExecNode
+      TableLookupExecNode indexedStream=0 lookup=SortedTableLookupStrategy indexProps=com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@4b9df8a index=(PropertySortedEventTableCoerced streamNum=0 propertyGetter=CGLibPropertyGetter fastMethod=public double org.ubicomp.event.TemperatureEvent.getTemperature() coercionType=class java.lang.Double)
+      TableLookupExecNode indexedStream=2 lookup=SortedTableLookupStrategy indexProps=com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@6955cb39 index=(PropertySortedEventTableCoerced streamNum=2 propertyGetter=CGLibPropertyGetter fastMethod=public double org.ubicomp.event.LuminosityEvent.getLuminosity() coercionType=class java.lang.Double)
+
+6023 [main] DEBUG com.espertech.esper.epl.join.base.JoinSetComposerPrototypeFactory  - .makeComposer Execution nodes for stream 2 'luminosity' : 
+    NestedIterationExecNode
+      TableLookupExecNode indexedStream=0 lookup=SortedTableLookupStrategy indexProps=com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@aafcffa index=(PropertySortedEventTableCoerced streamNum=0 propertyGetter=CGLibPropertyGetter fastMethod=public double org.ubicomp.event.TemperatureEvent.getTemperature() coercionType=class java.lang.Double)
+      TableLookupExecNode indexedStream=1 lookup=SortedTableLookupStrategy indexProps=com.espertech.esper.epl.join.plan.QueryGraphValueEntryRangeRelOp@5e8ac0e1 index=(PropertySortedEventTableCoerced streamNum=1 propertyGetter=CGLibPropertyGetter fastMethod=public double org.ubicomp.event.HumidityEvent.getHumidity() coercionType=class java.lang.Double)
+
+6062 [main] DEBUG com.espertech.esper.epl.named.NamedWindowConsumerMgmtServiceImpl  - Statement 'stmt_4 starts consuming
+6062 [main] DEBUG com.espertech.esper.core.service.EPAdministratorImpl  - .createEPLStmt Statement created and started
+6062 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .updatedListeners No action for base implementation
+6062 [main] DEBUG com.espertech.esper.core.service.EPAdministratorHelper  - .createEPLStmt statementName=null eplStatement=select * from TemperatureEvent match_recognize (        measures A as temp1, B as temp2        pattern (A B)        define                A as A.temperature > 60,                B as B.temperature > 60)
+6063 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Parsing expr=select * from TemperatureEvent match_recognize (        measures A as temp1, B as temp2        pattern (A B)        define                A as A.temperature > 60,                B as B.temperature > 60)
+6081 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6081 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6082 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6083 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6091 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6092 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6092 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6093 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6111 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Dumping AST...
+6111 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .walk Walking AST using walker com.espertech.esper.epl.parse.EPLTreeWalkerListener
+6120 [main] DEBUG com.espertech.esper.core.service.StatementResultServiceImpl  - .ctor
+6120 [main] DEBUG com.espertech.esper.filter.FilterSpecCompiler  - .makeFilterSpec spec=FilterSpecCompiled type=BeanEventType name=TemperatureEvent clazz=org.ubicomp.event.TemperatureEvent parameters=[]
+6120 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .start Starting statement 5 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@fd8294b
+6120 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .startInternal Starting statement 5 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@fd8294b
+6121 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Incoming specifications=[]
+6121 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Outgoing specifications=[]
+6131 [main] DEBUG com.espertech.esper.epl.core.OrderByProcessorFactoryFactory  - .getProcessor Using no OrderByProcessor
+6131 [main] DEBUG com.espertech.esper.epl.core.SelectExprProcessorFactory  - .getProcessor Using wildcard processor
+6131 [main] DEBUG com.espertech.esper.epl.core.ResultSetProcessorFactoryFactory  - .getProcessor Using no result processor
+6131 [main] DEBUG com.espertech.esper.view.stream.StreamFactorySvcImpl  - .createStream hashCode=392904516 filter=FilterSpecCompiled type=BeanEventType name=TemperatureEvent clazz=org.ubicomp.event.TemperatureEvent parameters=[]
+6132 [main] INFO com.espertech.esper.rowregex.EventRowRegexNFAView  - NFA tree:
+#0 A s0 defined as FilterEvent
+    #1 B s1 defined as FilterEvent
+        #endstate
+
+6132 [main] DEBUG com.espertech.esper.view.ViewServiceImpl  - .createView New views created for stream, all views ... com.espertech.esper.view.ZeroDepthStreamNoIterate@7446d8d5
+6132 [main] DEBUG com.espertech.esper.epl.named.NamedWindowConsumerMgmtServiceImpl  - Statement 'stmt_5 starts consuming
+6132 [main] DEBUG com.espertech.esper.core.service.EPAdministratorImpl  - .createEPLStmt Statement created and started
+6132 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .updatedListeners No action for base implementation
+6132 [main] DEBUG com.espertech.esper.core.service.EPAdministratorHelper  - .createEPLStmt statementName=null eplStatement=select * from TemperatureEvent match_recognize (        measures A as temp1, B as temp2, C as temp3, D as temp4        pattern (A B C D)        define                A as A.temperature > 80,                B as (A.temperature < B.temperature),                C as (B.temperature < C.temperature),                D as (C.temperature < D.temperature) and                D.temperature > (A.temperature * 1.5))
+6132 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Parsing expr=select * from TemperatureEvent match_recognize (        measures A as temp1, B as temp2, C as temp3, D as temp4        pattern (A B C D)        define                A as A.temperature > 80,                B as (A.temperature < B.temperature),                C as (B.temperature < C.temperature),                D as (C.temperature < D.temperature) and                D.temperature > (A.temperature * 1.5))
+6150 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6163 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6175 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6186 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6187 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6188 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6196 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6196 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6196 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6197 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6226 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6227 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6286 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6287 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6295 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6296 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6296 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6297 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6297 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6325 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6325 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6326 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6326 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6327 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6378 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAttemptingFullContext
+6387 [main] DEBUG com.espertech.esper.epl.parse.Antlr4ErrorListener  - reportAmbiguity
+6393 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .parse Dumping AST...
+6393 [main] DEBUG com.espertech.esper.epl.parse.ParseHelper  - .walk Walking AST using walker com.espertech.esper.epl.parse.EPLTreeWalkerListener
+6471 [main] DEBUG com.espertech.esper.core.service.StatementResultServiceImpl  - .ctor
+6472 [main] DEBUG com.espertech.esper.filter.FilterSpecCompiler  - .makeFilterSpec spec=FilterSpecCompiled type=BeanEventType name=TemperatureEvent clazz=org.ubicomp.event.TemperatureEvent parameters=[]
+6472 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .start Starting statement 6 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@6e46d9f4
+6472 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .startInternal Starting statement 6 from desc=com.espertech.esper.core.service.StatementLifecycleSvcImpl$EPStatementDesc@6e46d9f4
+6472 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Incoming specifications=[]
+6472 [main] DEBUG com.espertech.esper.view.ViewServiceHelper  - .addMergeViews Outgoing specifications=[]
+6473 [main] DEBUG com.espertech.esper.epl.core.OrderByProcessorFactoryFactory  - .getProcessor Using no OrderByProcessor
+6473 [main] DEBUG com.espertech.esper.epl.core.SelectExprProcessorFactory  - .getProcessor Using wildcard processor
+6473 [main] DEBUG com.espertech.esper.epl.core.ResultSetProcessorFactoryFactory  - .getProcessor Using no result processor
+6473 [main] DEBUG com.espertech.esper.view.stream.StreamFactorySvcImpl  - .createStream hashCode=392904516 filter=FilterSpecCompiled type=BeanEventType name=TemperatureEvent clazz=org.ubicomp.event.TemperatureEvent parameters=[]
+6474 [main] INFO com.espertech.esper.rowregex.EventRowRegexNFAView  - NFA tree:
+#0 A s0 defined as FilterEvent
+    #1 B s1 defined as FilterEvent
+        #2 C s2 defined as FilterEvent
+            #3 D s3 defined as FilterEvent
+                #endstate
+
+6474 [main] DEBUG com.espertech.esper.view.ViewServiceImpl  - .createView New views created for stream, all views ... com.espertech.esper.view.ZeroDepthStreamNoIterate@21c64522
+6474 [main] DEBUG com.espertech.esper.epl.named.NamedWindowConsumerMgmtServiceImpl  - Statement 'stmt_6 starts consuming
+6474 [main] DEBUG com.espertech.esper.core.service.EPAdministratorImpl  - .createEPLStmt Statement created and started
+6474 [main] DEBUG com.espertech.esper.core.service.StatementLifecycleSvcImpl  - .updatedListeners No action for base implementation
+Main> Listeners Done!
+URL => http://localhost:8085/sendevent?stream=LiveEvent
+6625 [main] INFO org.ubicomp.tests.SupportHTTPClient  - Requesting from URI http://localhost:8085/sendevent?stream=LiveEvent
+8805 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection open: 10.0.0.4:8085<->150.161.2.202:49570[ACTIVE]
+9278 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->150.161.2.202:49570[CLOSED]
+9543 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {}->http://localhost:8085
+9581 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to localhost:8085
+9600 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection open: 127.0.0.1:8085<->127.0.0.1:57522[ACTIVE]
+9683 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+9684 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+9685 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+9685 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+9701 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+9702 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /sendevent?stream=LiveEvent HTTP/1.1
+9703 [main] DEBUG org.apache.http.wire  -  >> "GET /sendevent?stream=LiveEvent HTTP/1.1[\r][\n]"
+9703 [main] DEBUG org.apache.http.wire  -  >> "Host: localhost:8085[\r][\n]"
+9704 [main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+9704 [main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+9704 [main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+9704 [main] DEBUG org.apache.http.headers  - >> GET /sendevent?stream=LiveEvent HTTP/1.1
+9704 [main] DEBUG org.apache.http.headers  - >> Host: localhost:8085
+9704 [main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+9704 [main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+ESPER RUNNING...
+9723 [main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+9740 [main] DEBUG org.apache.http.wire  -  << "Date: Tue, 31 Oct 2017 00:22:33 GMT[\r][\n]"
+9741 [main] DEBUG org.apache.http.wire  -  << "Content-Length: 0[\r][\n]"
+9741 [main] DEBUG org.apache.http.wire  -  << "Connection: Keep-Alive[\r][\n]"
+9741 [main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+9741 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+9741 [main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+9742 [main] DEBUG org.apache.http.headers  - << Date: Tue, 31 Oct 2017 00:22:33 GMT
+9742 [main] DEBUG org.apache.http.headers  - << Content-Length: 0
+9742 [main] DEBUG org.apache.http.headers  - << Connection: Keep-Alive
+9761 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+9893 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6a1ebcff
+9893 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+14729 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection timed out: 0.0.0.0:8085<->127.0.0.1:57522[CLOSED]
+14729 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->127.0.0.1:57522[CLOSED]
+40409 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection open: 10.0.0.4:8085<->150.161.2.202:45785[ACTIVE]
+40411 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->150.161.2.202:45785[CLOSED]
+41743 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection open: 10.0.0.4:8085<->150.161.2.202:14031[ACTIVE]
+---------------------------------
+- [ATTENTION] : {temp2=TemperatureEvent [43.0C], temp1=TemperatureEvent [98.0C]}
+---------------------------------
+41746 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->150.161.2.202:14031[CLOSED]
+43082 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection open: 10.0.0.4:8085<->150.161.2.202:3738[ACTIVE]
+43083 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->150.161.2.202:3738[CLOSED]
+44420 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection open: 10.0.0.4:8085<->150.161.2.202:58393[ACTIVE]
+---------------------------------
+- [ATTENTION] : {temp2=TemperatureEvent [58.0C], temp1=TemperatureEvent [81.0C]}
+---------------------------------
+44421 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->150.161.2.202:58393[CLOSED]
+45751 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection open: 10.0.0.4:8085<->150.161.2.202:52589[ACTIVE]
+45752 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->150.161.2.202:52589[CLOSED]
+47088 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection open: 10.0.0.4:8085<->150.161.2.202:3815[ACTIVE]
+---------------------------------
+- [ATTENTION] : {temp2=TemperatureEvent [51.0C], temp1=TemperatureEvent [118.0C]}
+---------------------------------
+47089 [I/O dispatcher 2] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->150.161.2.202:3815[CLOSED]
+48430 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection open: 10.0.0.4:8085<->150.161.2.202:54335[ACTIVE]
+48431 [I/O dispatcher 1] INFO com.espertech.esperio.http.EventLogger  - Connection closed: 0.0.0.0:8085<->150.161.2.202:54335[CLOSED]
