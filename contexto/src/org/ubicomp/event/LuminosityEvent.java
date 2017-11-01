@@ -1,5 +1,9 @@
 package org.ubicomp.event;
 
+import java.io.FileNotFoundException;
+
+import org.ubicomp.util.CSVFile;
+
 public class LuminosityEvent {
 
 	private double luminosity;
@@ -17,6 +21,12 @@ public class LuminosityEvent {
 	}
 	
 	public void setLuminosity(double luminosity) {
+		
+		try {
+			CSVFile.escrevaLuminosity("Luminosity , " + luminosity);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 		this.luminosity = luminosity;
 	}
 

@@ -32,7 +32,7 @@ public class TemperatureEvent {
     
     public void setTemperature(double temperature) {
     	try {
-			CSVFile.escreva("Temperature , " + temperature + "\n");
+			CSVFile.escrevaTemperature("Temperature , " + temperature);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

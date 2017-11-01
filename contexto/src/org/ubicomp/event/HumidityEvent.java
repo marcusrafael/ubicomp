@@ -1,5 +1,9 @@
 package org.ubicomp.event;
 
+import java.io.FileNotFoundException;
+
+import org.ubicomp.util.CSVFile;
+
 public class HumidityEvent {
 
 	private double humidity;
@@ -17,6 +21,11 @@ public class HumidityEvent {
 	}
 
 	public void setHumidity(double humidity) {
+		try {
+			CSVFile.escrevaHumidity("Humidity , " + humidity);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 		this.humidity = humidity;
 	}
 
