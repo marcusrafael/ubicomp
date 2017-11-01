@@ -1,5 +1,8 @@
 package org.ubicomp.event;
 
+import java.io.FileNotFoundException;
+
+import org.ubicomp.util.CSVFile;
 
 public class TemperatureEvent {
 
@@ -28,7 +31,11 @@ public class TemperatureEvent {
     }
     
     public void setTemperature(double temperature) {
-    	System.out.println(temperature);
+    	try {
+			CSVFile.escreva("Temperature , " + temperature + "\n");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
         this.temperature = temperature;
     }
     
