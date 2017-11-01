@@ -1,17 +1,15 @@
 package org.ubicomp.listener;
 
+
 public class ThresholdersValues {
-	private static final String TEMPERATURE_THRESHOLD = "40";
-	private static final String WARNING_TEMPERATURE_THRESHOLD = "60";
-	private static final String CRITICAL_TEMPERATURE_THRESHOLD = "80";
+	private static final String TEMPERATURE_THRESHOLD = "30";
+	private static final String ALERT_TEMPERATURE_THRESHOLD = "30";
+	private static final String CRITICAL_TEMPERATURE_THRESHOLD = "60";
 	private static final String CRITICAL_TEMPERATURE_MULTIPLIER = "1.5";
-	private static final String HUMIDITY_THRESHOLD = "0.30";
-	private static final String LUMINOSITY_THRESHOLD = "0.80";
-	
+	private static final String HUMIDITY_THRESHOLD = "30";
+	private static final String LUMINOSITY_THRESHOLD = "50";
 	
 	public ThresholdersValues() {}
-
-	
 	
 	public static String getCriticalTemperatureThreshold() {
 		return CRITICAL_TEMPERATURE_THRESHOLD;
@@ -34,7 +32,7 @@ public class ThresholdersValues {
 	}
 
 	public static String getWarningTemperatureThreshold() {
-		return WARNING_TEMPERATURE_THRESHOLD;
+		return ALERT_TEMPERATURE_THRESHOLD;
 	}
 	
 	

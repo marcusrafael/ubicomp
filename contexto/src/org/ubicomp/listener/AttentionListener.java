@@ -3,36 +3,34 @@ package org.ubicomp.listener;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.ubicomp.input.EsperHttpInputAdapter;
-import org.ubicomp.tests.SupportHTTPClient;
 
 import com.espertech.esper.client.EPStatement;
 import com.espertech.esper.client.EventBean;
 import com.espertech.esper.client.UpdateListener;
 
-public class AttentionTemperatureListener implements UpdateListener {
-	
-	private String temperature = ThresholdersValues.getTemperatureThreshold();
-	
-	private static Log log = LogFactory.getLog(AttentionTemperatureListener.class);
+public class AttentionListener implements UpdateListener{
 
-	public AttentionTemperatureListener() {
-        String expression = "select * from TemperatureEvent "
-				+ "match_recognize ( "
-				+ "       measures A as temp1, B as temp2 "
-				+ "       pattern (A B) " 
-				+ "       define " 
-				+ "               A as A.temperature > " + temperature + ", "
-				+ "               B as B.temperature > " + temperature + ")";
+	//AttentionEvent: 40 <= temperature < 60, humidity <= 50, luminosity <= 50
+    private static Log log = LogFactory.getLog(AttentionListener.class);
+	
+    public AttentionListener() {
+        String expression = "SELECT * " + 
+        		" FROM TemperatureEvent.std:lastevent() AS temperature," +
+                " HumidityEvent.std:lastevent() AS humidity,"+ 
+                " LuminosityEvent.std:lastevent() AS luminosity" +
+                " WHERE (temperature >= 40 AND temperature < 60)" + 
+        		" AND humidity <= 50 AND luminosity <= 50";
+
         EPStatement statement = EsperHttpInputAdapter.epService.getEPAdministrator().createEPL(expression);
         statement.addListener(this);
-	}
+    }
 
+	@Override
 	public void update(EventBean[] newEvents, EventBean[] oldEvents) {
 		StringBuilder sb = new StringBuilder();
 		sb.append("[ATTENTION] : ");
 		sb.append(newEvents[0].getUnderlying().toString());
 		System.out.println(sb.toString());
-		log.warn(sb.toString());
+		log.warn(sb.toString());		
 	}
-	
 }

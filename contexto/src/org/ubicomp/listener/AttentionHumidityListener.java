@@ -1,10 +1,11 @@
 package org.ubicomp.listener;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.ubicomp.input.EsperHttpInputAdapter;
 
 import com.espertech.esper.client.EPStatement;
 import com.espertech.esper.client.EventBean;
-import com.espertech.esper.client.EventType;
 import com.espertech.esper.client.UpdateListener;
 
 public class AttentionHumidityListener implements UpdateListener {
@@ -12,6 +13,9 @@ public class AttentionHumidityListener implements UpdateListener {
 	private String humidity = ThresholdersValues.getHumidityThreshold();
 	private String temperature = ThresholdersValues.getTemperatureThreshold();
 	private String luminosity = ThresholdersValues.getLuminosityThreshold();
+	
+	private static Log log = LogFactory.getLog(AttentionHumidityListener.class);
+	
 
 	public AttentionHumidityListener() {
         String expression = "SELECT *" + 
@@ -28,11 +32,10 @@ public class AttentionHumidityListener implements UpdateListener {
 
 	public void update(EventBean[] newEvents, EventBean[] oldEvents) {
 		StringBuilder sb = new StringBuilder();
-		sb.append("---------------------------------");
-		sb.append("\n- [ATTENTION] : ");
+		sb.append("[ATTENTION] : ");
 		sb.append(newEvents[0].getUnderlying().toString());
-		sb.append("\n---------------------------------");
 		System.out.println(sb.toString());
+		log.warn(sb.toString());
 	}
 	
 }

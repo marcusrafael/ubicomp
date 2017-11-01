@@ -67,7 +67,6 @@ public class SupportHTTPClient {
                 throw new RuntimeException(e);
             }
         }
-        System.out.println("URL => " + uri.toString() + query.toString());
         return URI.create(uri.toString() + query.toString());
     }
 

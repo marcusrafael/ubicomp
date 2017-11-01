@@ -11,7 +11,7 @@ import com.espertech.esperio.http.EsperIOHTTPAdapterPlugin;
 public class EsperHttpInputAdapter {
     public static EPServiceProvider epService;
     public static String HTTP_PORT = "8085";
-    
+        
     public void run() throws Exception {
         boolean isNio = true;
 

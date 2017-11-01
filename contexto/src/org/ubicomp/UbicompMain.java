@@ -1,6 +1,9 @@
 package org.ubicomp;
 
+import java.util.Properties;
+
 import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.PropertyConfigurator;
 import org.ubicomp.input.EsperHttpInputAdapter;
 import org.ubicomp.tests.SupportHTTPClient;
 import org.ubicomp.listener.*;
@@ -9,8 +12,10 @@ public class UbicompMain {
 
 	public static boolean running = true;
 	
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {		
     	BasicConfigurator.configure();
+    	
+        PropertyConfigurator.configure("src/log4j.properties");
 
         EsperHttpInputAdapter test = new EsperHttpInputAdapter();
         test.run();
@@ -19,15 +24,19 @@ public class UbicompMain {
         System.out.println("Main> Starting Listeners...");
         new LiveListener();
         new QuitListener();
+
         // attention events        
         new AttentionTemperatureListener();
         new AttentionHumidityListener();
+        new AttentionListener();
         
         // warning events
-        new WarningTemperatureListener();
+        new AlertTemperatureListener();
+        new AlertListener();
         
         // critical events
         new CriticalTemperatureListener();
+        new CriticalListener();
         
         System.out.println("Main> Listeners Done!");
 

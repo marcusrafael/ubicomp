@@ -1,19 +1,21 @@
 package org.ubicomp.listener;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.ubicomp.input.EsperHttpInputAdapter;
 
 import com.espertech.esper.client.EPStatement;
 import com.espertech.esper.client.EventBean;
 import com.espertech.esper.client.UpdateListener;
 
-public class WarningTemperatureListener implements UpdateListener {
+public class AlertTemperatureListener implements UpdateListener {
 	
     private String warningTemperature = ThresholdersValues.getWarningTemperatureThreshold();
     
+    private static Log log = LogFactory.getLog(AlertTemperatureListener.class);
+    
     /** If 2 consecutive temperature events are greater than this - issue a warning */    
-	public WarningTemperatureListener() {
+	public AlertTemperatureListener() {
         String expression = "select * from TemperatureEvent "
         		 + "match_recognize ( "
                  + "       measures A as temp1, B as temp2 "
@@ -27,11 +29,10 @@ public class WarningTemperatureListener implements UpdateListener {
 
 	public void update(EventBean[] newEvents, EventBean[] oldEvents) {
 		StringBuilder sb = new StringBuilder();
-		sb.append("---------------------------------");
-		sb.append("\n- [WARNING] : ");
+		sb.append("[WARNING] : ");
 		sb.append(newEvents[0].getUnderlying().toString());
-		sb.append("\n---------------------------------");
 		System.out.println(sb.toString());
+		log.warn(sb.toString());
 	}
 	
 }
