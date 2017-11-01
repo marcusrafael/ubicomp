@@ -15,7 +15,7 @@ public class UbicompMain {
 	public static void main(String[] args) throws Exception {		
     	BasicConfigurator.configure();
     	
-        PropertyConfigurator.configure("src/log4j.properties");
+        PropertyConfigurator.configure("log4j.properties");
 
         EsperHttpInputAdapter test = new EsperHttpInputAdapter();
         test.run();
