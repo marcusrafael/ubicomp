@@ -29,8 +29,12 @@ public class AlertListener implements UpdateListener{
 	public void update(EventBean[] newEvents, EventBean[] oldEvents) {
 		StringBuilder sb = new StringBuilder();
 		sb.append("[ALERT] : ");
-		sb.append(newEvents[0].getUnderlying().toString());
+		sb.append(
+				newEvents[0].get("temperature").toString() + ", " + 
+				newEvents[0].get("humidity").toString() + ", " +
+				newEvents[0].get("luminosity").toString() 
+		);
 		System.out.println(sb.toString());
-		log.warn(sb.toString());		
+		log.warn(sb.toString());
 	}
 }
