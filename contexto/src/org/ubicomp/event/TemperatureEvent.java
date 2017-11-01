@@ -28,6 +28,7 @@ public class TemperatureEvent {
     }
     
     public void setTemperature(double temperature) {
+    	System.out.println(temperature);
         this.temperature = temperature;
     }
     

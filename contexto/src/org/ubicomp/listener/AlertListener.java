@@ -14,6 +14,7 @@ public class AlertListener implements UpdateListener{
 	private static Log log = LogFactory.getLog(AlertListener.class);
 	
 	public AlertListener() {
+		
         String expression = "SELECT * " + 
         		" FROM TemperatureEvent.std:lastevent() AS temperature," +
                 " HumidityEvent.std:lastevent() AS humidity,"+ 

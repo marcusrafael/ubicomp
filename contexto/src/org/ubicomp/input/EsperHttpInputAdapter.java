@@ -25,6 +25,7 @@ public class EsperHttpInputAdapter {
 
         config.addEventTypeAutoName("org.ubicomp.event");
         epService = EPServiceProviderManager.getDefaultProvider(config);
+        System.out.println("teste2");
     }
 
     public void destroy() {
